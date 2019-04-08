@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document created by Edward Alfred, September 26, 2018 updated September 2018*/
+
+body {
+	font-family: Times New Roman, Times, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 1.3em;
+	color: #BF0100;
+	background-color: #BF0100;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #CCCCCC;
+}
+h1 {
+	font-size: 25px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 60px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #999933;
+}
+h3 {
+	font-size: 20px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #9B9744;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #E5BA26;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #BFA994;
+	text-decoration: none;
+}
+a:hover {
+	color: #BFA994;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 13px;
+}
+ol {
+	margin-left: 15px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #999934 1px;
+}
+td {
+	padding: 6px;
+	border: solid #999934 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #999939;
+	text-align: center;
+	padding: 6px;
+	border: solid #999934 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #999934 1px;
+}
+
+img {
+	border: solid #999934 1px;
+
+}
+iframe {
+	border: solid #999934 1px;
+	padding: 8px;
+	margin: 8px;
+}
+
+
