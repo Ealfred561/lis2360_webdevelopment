@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document created by Edward Alfred, September 26, 2018 updated September 2018*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Times New Roman, Times, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 1.3em;
+	color: #000;
+	background-color: #fff;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	padding: 0 80px 100px 80px 100px;
+	
+	
+}
+h1 {
+	font-size: 30px;
+	padding: 0 80px 100px 80px 100px;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+	margin: 0;
+}
+h2 {
+	font-size: 70px;
+	padding: 0 80px 100px 80px 100px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+}
+h3 {
+	font-size: 30px;
+	letter-spacing: 0.7em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #9B9744;
+	padding: 0 80px 100px 80px 100px;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #E5BA26;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #BFA994;
+	text-decoration: none;
+}
+a:hover {
+	color: #BFA994;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 13px;
+}
+ol {
+	margin-left: 15px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #999934 1px;
+}
+td {
+	padding: 6px;
+	border: solid #999934 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #999939;
+	text-align: center;
+	padding: 6px;
+	border: solid #999934 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #999934 1px;
+}
+
+img {
+	border: solid #999934 1px;
+
+}
+iframe {
+	border: solid #999934 1px;
+	padding: 8px;
+	margin: 8px;
+}
+/*DIV STYLES FOR PAGE LAYOUT */
+
+#container{
+	width: 900px;
+	margin: 0 auto;
+/*	border: 1px solid #000;*/
+	background-color: #fff;
+	overflow: hidden;
+}
+#header{
+	Width: 100%;
+	background-color: #fff;
+	
+}
+#content{
+	Width: 700px;
+	float: left;
+	
+}
+#sidebar{
+	width: 20px
+	float: left;
+	margin-top: 30px
+	margin-right:30px
+	
+}
+#sidebar p{
+	padding: 10px;
+}
+#footer{
+	Width: 100%;
+	background-color: #fff;
+	border-top: 1px solid #f00;
+	clear: both;
+}
+
